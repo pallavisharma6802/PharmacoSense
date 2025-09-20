@@ -32,12 +32,7 @@ Users can seamlessly upload sales datasets, perform automated data preprocessing
     git clone https://github.com/pallavisharma6802/Sales-Forecasting-and-Analytics-for-Pharmaceutical-Domain.git
     ```
 
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Launch the application:
+2. Launch the application:
     ```bash
     streamlit run Home.py
     ```
@@ -55,10 +50,3 @@ Uploaded CSV files must include the following columns:
 - **Date Sold** (datetime format: dd-mm-yyyy or mm/dd/yyyy)
 - **Product Category** (string)
 
----
-
-## Future Enhancements
-- Extend forecasting capabilities to hybrid models combining ARIMA and LSTM techniques.
-- Implement user authentication and session management for personalized analytics.
-- Integrate real-time database storage with Firebase or PostgreSQL.
-- Offer customizable prediction windows and multivariate time-series forecasting.
